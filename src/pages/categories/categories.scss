@@ -1,0 +1,24 @@
+page-categories {
+   .container{
+       display:flex;
+       flex-direction: row;
+       flex-wrap:wrap;
+
+   }
+   img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+ 
+   }
+
+   .category {
+       border: 1px solid #dddddd;
+       border-radius: 5px;
+   }
+
+ion-content{
+    background-color: red;
+    background-image: url('../../assets/imgs/cool-red-wallpaper-27650-28369-hd-wallpapers.jpg')
+}
+}
